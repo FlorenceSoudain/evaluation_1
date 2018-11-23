@@ -1,0 +1,24 @@
+#global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#depenses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+label {
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 10px;
+}
+#recettes {
+    display: flex;
+    flex-direction: column;
+}

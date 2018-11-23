@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Budget</h1>
+</header>
+<div id="global">
+    <div id="depenses">
+        <h2>Dépenses</h2>
+        <h3>Dépenses Fixes</h3>
+        <label for="loyer">Loyer : </label>
+        <input type="number" id="loyer">
+        <label for="charges">Charges : </label>
+        <input type="number" id="charges">
+        <label for="credit">Remboursement de Crédits : </label>
+        <input type="number" id="credit">
+        <label for="electricite">Electricité : </label>
+        <input type="number" id="electricite">
+        <label for="eau">Eau : </label>
+        <input type="number" id="eau">
+        <label for="gaz">Gaz : </label>
+        <input type="number" id="gaz">
+        <label for="telephone">Téléphone : </label>
+        <input type="number" id="telephone">
+        <label for="internet">Internet : </label>
+        <input type="number" id="internet">
+        <label for="assuranceHabitation">Assurance Habitation : </label>
+        <input type="number" id="assuranceHabitation">
+        <label for="assuranceAuto">Assurance Auto : </label>
+        <input type="number" id="assuranceAuto">
+        <label for="mutuelleSanT">Mutuelle Santé : </label>
+        <input type="number" id="mutuelleSanT">
+        <label for="fraisDeGarde">Frais de Garde : </label>
+        <input type="number" id="fraisDeGarde">
+        <label for="impotRevenu">Impôts sur le revenu : </label>
+        <input type="number" id="impotRevenu">
+        <label for="impotLocaux">Impôts Locaux : </label>
+        <input type="number" id="impotLocaux">
+
+        <h3>Dépenses courantes</h3>
+        <label for="courses">Courses : </label>
+        <input type="number" id="courses">
+        <label for="essence">Essence : </label>
+        <input type="number" id="essence">
+        <label for="transport">Frais de transport : </label>
+        <input type="number" id="transport">
+        <label for="activiteCulturellesEtSportives">Activités Culturelles ou Sportives : </label>
+        <input type="number" id="activiteCulturellesEtSportives">
+
+
+    </div>
+    <div id="recettes">
+        <h2>Recettes</h2>
+        <label for="salaire">Salaire : </label>
+        <input type="number" id="salaire">
+        <label for=allocations>Allocation : </label>
+        <input type="number" id="allocations">
+        <label for="rentes">Rentes : </label>
+        <input type="number" id="rentes">
+        <label for="autresRecettes">Autres Recettes : </label>
+        <input type="number" id="autresRecettes">
+    </div>
+    <div id="epargne">
+        <h2>Epargne</h2>
+    </div>
+    <div id="totaux">
+        <h2>Total des dépenses du mois</h2>
+        <div>
+            <h3>Total des Dépenses</h3>
+            <span id="totalDepenses"></span>
+        </div>
+        <div>
+            <h3>Total des Recettes</h3>
+            <span id="totalRecettes"></span>
+        </div>
+        <div>
+            <h3>Il reste ?</h3>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
